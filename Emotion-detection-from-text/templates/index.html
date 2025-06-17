@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Emotion Detection from Text</h2>
+        <form method="POST" action="/predict">
+            <input type="text" name="message" placeholder="Enter a message" required>
+            <button type="submit">Predict Emotion</button>
+        </form>
+        {% if emotion %}
+            <p><strong>Predicted Emotion:</strong> {{ emotion }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
