@@ -1,0 +1,11 @@
+Age,Income,Education,Credit_Score,Loan_Status
+25,30000,Graduate,680,Yes
+30,40000,Graduate,700,Yes
+45,25000,Not Graduate,600,No
+35,50000,Graduate,720,Yes
+28,35000,Not Graduate,580,No
+50,45000,Graduate,690,Yes
+32,42000,Not Graduate,640,No
+40,52000,Graduate,710,Yes
+29,39000,Not Graduate,600,No
+38,47000,Graduate,700,Yes
