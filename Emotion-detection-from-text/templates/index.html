@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Emotion Detection</title>
+    <meta charset="UTF-8">
+    <title>😊 Emotion Detection</title>
+    <link rel="icon" href="/static/emotion.png" type="image/png">
     <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h2>Emotion Detection from Text</h2>
-        <form method="POST" action="/predict">
-            <input type="text" name="message" placeholder="Enter a message" required>
-            <button type="submit">Predict Emotion</button>
-        </form>
-        {% if emotion %}
-            <p><strong>Predicted Emotion:</strong> {{ emotion }}</p>
-        {% endif %}
+    <div class="wrapper">
+        <div class="container">
+            <h2>🎭 Emotion Detection from Text</h2>
+            <form method="POST" action="/predict">
+                <input type="text" name="message" placeholder="💬 Type your message here..." required>
+                <button type="submit">🔍 Predict Emotion</button>
+            </form>
+
+            {% if emotion %}
+                <div class="result">
+                    <p>🎉 <strong>Predicted Emotion:</strong> <span class="emotion">{{ emotion }}</span></p>
+                </div>
+            {% endif %}
+        </div>
     </div>
 </body>
 </html>
