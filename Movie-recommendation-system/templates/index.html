@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Movie Recommendation System</title>
+    <meta charset="UTF-8">
+    <title>🎬 Movie Recommendation System</title>
+    <link rel="icon" href="/static/favicon.png" type="image/png">
     <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Movie Recommendation System</h1>
-        <form method="post">
-            <label for="user_id">Enter User ID:</label>
-            <input type="number" name="user_id" required>
-            <button type="submit">Get Recommendations</button>
-        </form>
+    <div class="wrapper">
+        <div class="container">
+            <h1>🎥 Movie Recommendation System</h1>
+            <form method="post">
+                <label for="user_id">🔑 Enter Your User ID:</label>
+                <input type="number" name="user_id" placeholder="e.g. 101" required>
+                <button type="submit">🎯 Get Recommendations</button>
+            </form>
 
-        {% if recommendations %}
-        <h2>Recommendations:</h2>
-        <ul>
-            {% for movie in recommendations %}
-            <li>{{ movie }}</li>
-            {% endfor %}
-        </ul>
-        {% endif %}
+            {% if recommendations %}
+            <div class="results">
+                <h2>📽️ Recommended Movies:</h2>
+                <ul>
+                    {% for movie in recommendations %}
+                    <li>{{ movie }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
     </div>
 </body>
 </html>
