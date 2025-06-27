@@ -1,12 +1,28 @@
-# Spam Email Detection (ML Project)
+# 📧 Email Spam Detection Web App
 
-This project uses Naive Bayes and SVM to classify emails as spam or ham.
+This web app classifies email text as **Spam** or **Not Spam** using a machine learning classifier built with `Multinomial Naive Bayes` and `TF-IDF`.
 
-## Features:
-- TF-IDF vectorization
-- Accuracy > 90%
-- Model evaluation using accuracy, precision, recall
+## 🚀 Features
+- Input: Raw email text
+- Output: Spam / Not Spam
+- Accuracy: 90%+
+- Web UI built using Flask
 
-## How to Run:
-1. Open in Jupyter Notebook or VS Code
-2. Run each cell
+## 🧠 ML Workflow
+1. Load email text dataset (ham/spam)
+2. Preprocess using:
+   - Lowercasing
+   - Stopword removal
+   - TF-IDF Vectorization
+3. Train/test split
+4. Model: Multinomial Naive Bayes
+5. Evaluate using accuracy, precision, recall
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Sathish-ship-it007/email-spam-detector
+cd email-spam-detector
+pip install -r requirements.txt
+python train_model.py
+python app.py
