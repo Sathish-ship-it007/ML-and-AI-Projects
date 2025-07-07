@@ -9,3 +9,33 @@ Age,Income,Education,Credit_Score,Loan_Status
 40,52000,Graduate,710,Yes
 29,39000,Not Graduate,600,No
 38,47000,Graduate,700,Yes
+25,30000,Graduate,680,Yes
+30,40000,Graduate,700,Yes
+45,25000,Not Graduate,600,No
+35,50000,Graduate,720,Yes
+28,35000,Not Graduate,580,No
+50,45000,Graduate,690,Yes
+32,42000,Not Graduate,640,No
+40,52000,Graduate,710,Yes
+29,39000,Not Graduate,600,No
+38,47000,Graduate,700,Yes
+42,36000,Not Graduate,610,No
+34,61000,Graduate,750,Yes
+31,33000,Not Graduate,590,No
+27,29000,Graduate,670,Yes
+48,47000,Graduate,705,Yes
+33,31000,Not Graduate,560,No
+36,50000,Graduate,720,Yes
+43,43000,Graduate,695,Yes
+26,28000,Not Graduate,570,No
+37,55000,Graduate,740,Yes
+39,46000,Graduate,710,Yes
+41,38000,Not Graduate,610,No
+30,44000,Graduate,715,Yes
+35,32000,Not Graduate,590,No
+44,51000,Graduate,730,Yes
+29,30000,Graduate,650,Yes
+50,48000,Not Graduate,620,No
+28,34000,Graduate,690,Yes
+33,36000,Not Graduate,610,No
+47,53000,Graduate,735,Yes
